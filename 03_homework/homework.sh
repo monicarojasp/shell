@@ -8,20 +8,50 @@
 
 # 1. How would you create 5 directories? Feel free to use any name for your directories.
 
+mkdir directory{1..5}
+
 # 2. How would you verify the creation of all 5 directories?
+
+I use the command ls to list all the directories, the new directories should appear 
 
 # 3. In each directory, how would you create 5 .txt files and write "I love data" into each within the directories?
 
+echo "I love data" > directory{1..5}/file{1..5}.txt
+
 # 4. How would you verify the presence of all 5 files?
+
+Navigate to the directories and use ls  
 
 # 5. How would you append to one of the existing files " and machine learning!"?
 
+echo " and machine learning" >> directory1/file1.txt
+
 # 6. How would you verify that the text was indeed appended to the existing file?
+
+If I am outside the directory:
+
+cat  directory1/file1.txt
+
+If I am in the directory:
+
+cat  file1.txt
 
 # 7. How would you delete all files except for the one with the appended text?
 
+Using the -I (interactive) and mark n when ask about deleting the file with the appended text, if I want to delete all the txt files in the five directories I created
+
+rm -i directory{1..5}/file{1..5}.txt
+
+If I just want to delete all the files in the current directory where the files with the appended text, I will just do as follow, assuming the file I don’t what to delete is file1:
+
+rm file{2..5}.txt 
+
 # 8. How would you navigate back to the parent directory containing all the directories?
 
+cd ..
+
 # 9. How would you remove each directory along with its contents?
+
+rm -r directory*
 
 # 10. How would you verify that all directories and files have been deleted?
