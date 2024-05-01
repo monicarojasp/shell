@@ -40,62 +40,11 @@ The secret password is:
 
 Paper Rings
 season_10
-Ross
-and
+Meets
+Legacies
 Lucky
-the
+Stars (if & is not consider a word)
 
-1	The very odd and inedible ingredient in a cake recipe
-
-The clue is: Paper Rings
-
-From git: 
-cd shell/02_assignments/clues/food/cake
-ls
-cat chocolate_cake.txt       
-cat vanilla_cake.txt
-cat red_velvet_cake.txt 
-
-2. The season number that contains only 18 episodes (Hint: How do you list them?)
-
-The clue is: season_10
-
-Commands used:
-from the folder clues:
-cd shows/friends 
-ls season_1 | wc -l (per each folder)
-
-3. Fifth word of Season 6, Episode 21 of Friends
-
-The clue is: Ross
-
-From the friends folder:
-cd season_6
-awk '{print $4}' ep_21.txt
-
-4. Fifth word of the fifth fictional Space Wars series
-
-The clue is: and
-
-From clues folder:
-cd movies/space_wars
-awk '{print $5}' fifth_movie.txt
-
-5. Second word of this song that's exactly 4 minutes long in this "colour" album
-
-The clue is: Lucky
-
-From clues:
-cd albums/red
-cat song_1.txt (per each file 1 to 5) the I saw that song 5 was 4:00 and the second word of title was Lucky  
-
-6. The fourth word to the fourth Hunger Games movie
-
-The clue is: the
-
-From movies folder:
-cd hanger_games
-awk '{print $4}' movie_4.txt
 
 
 ```
