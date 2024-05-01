@@ -36,6 +36,14 @@ You are stuck in a virtual room and can only leave if you figure out the passwor
 ```
 Your answer here...
 
+The secret password is:
+
+Paper Rings
+season_10
+Meets
+Legacies
+Lucky
+Stars (if & is not consider a word)
 
 
 
